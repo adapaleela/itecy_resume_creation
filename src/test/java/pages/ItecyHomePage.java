@@ -29,6 +29,16 @@ public class ItecyHomePage
 		PageFactory.initElements(driver,this);
 	}
 	
+	public void click_jobseeker_dropdown_link()
+	{
+		jobseeker_dropdown_link.click();
+	}
+	
+	public void click_create_resume_option()
+	{
+		create_resume_option.click();
+	}
+	
 	public void clickMessg()
 	{
 		messg.click();

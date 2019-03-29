@@ -68,6 +68,16 @@ public class ItecyAddEducationPage
 		university.sendKeys(x);
 	}
 	
+	public void aedpclick_save_changes_button()
+	{
+		save_changes_button.click();
+	}
+	
+	public void aedpclick_close_button()
+	{
+		close_button.click();
+	}
+	
 	public void aedpclick_next()
 	{
 		aedpnext_button.click();
